@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
-import Gallery from './component/galleryItem';
+import { startTransition, useEffect, useState } from 'react';
+import Gallery from './component/gallery';
 import SearchBar from './component/searchBar';
+import "./App.css"
 
 function App () {
     const [search, setSearch] = useState('');
@@ -37,7 +38,9 @@ function App () {
     };
 
     return (
+
         <div>
+
             <SearchBar handleSearch={handleSearch} />
             {message && <p>{message}</p>}
             <Gallery data={data} />
