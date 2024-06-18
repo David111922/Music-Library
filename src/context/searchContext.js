@@ -1,6 +1,6 @@
-import {createContext} from 'react'
+// import {createContext} from 'react'
 
-export const SearchContext = createContext({
-    term: '',
-    handleSearch: () => {}
-})
+// export const SearchContext = createContext({
+//     term: '',
+//     handleSearch: () => {}
+// })
