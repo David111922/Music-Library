@@ -11,11 +11,11 @@ const Gallery = (props) => {
         )
     })
 
-    return (
-        <div>
-            {display}
-        </div>
-    )
+    // return (
+    //     <div style={}>
+    //         {display}
+    //     </div>
+    // )
 }
 
 export default Gallery
